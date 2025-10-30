@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ysrael Abilon — Portfolio</title>
+  <meta name="description" content="Portfolio of Ysrael Abilon — BSIT student focusing on ethical technology, education, and community impact." />
+  
+  
+        <style>
+          :root{
+            --bg:#0f1724; --card:#0b1220; --muted:#9aa6bd; --accent:#6ee7b7; --glass: rgba(255,255,255,0.04);
+            --maxw:1100px; --radius:14px; --pad:20px;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+          }
+          *{box-sizing:border-box}
+          html,body{height:100%;margin:0;background:linear-gradient(180deg,#071026 0%,var(--bg) 100%);color:#e6eef8}
+          .wrap{max-width:var(--maxw);margin:36px auto;padding:24px}
+          header{display:flex;gap:20px;align-items:center}
+          .avatar{width:96px;height:96px;border-radius:18px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042;box-shadow:0 6px 24px rgba(6,11,19,.6)}
+          h1{font-size: clamp(20px,3vw,28px);margin:0}
+          p.lead{margin:6px 0 0;color:var(--muted)}
+
+          .grid{display:grid;grid-template-columns:1fr 360px;gap:24px;margin-top:28px}
+          @media (max-width:900px){.grid{grid-template-columns:1fr}}
+
+          .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), var(--card));border-radius:var(--radius);padding:var(--pad);box-shadow:0 6px 18px rgba(2,6,23,.6)}
+          .section{margin-bottom:18px}
+
+          .values{display:flex;gap:12px;flex-wrap:wrap}
+          .value{flex:1 1 140px;background:var(--glass);padding:12px;border-radius:10px}
+          .value h4{margin:0 0 6px;font-size:14px}
+          .value p{margin:0;color:var(--muted);font-size:13px}
+
+          .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+          @media (max-width:700px){.projects{grid-template-columns:1fr}}
+          .project{padding:12px;border-radius:10px;background:rgba(255,255,255,0.02)}
+          .project h5{margin:0 0 6px}
+          .tag{display:inline-block;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:12px;color:var(--muted)}
+
+          .ikigai{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+          @media (max-width:700px){.ikigai{grid-template-columns:1fr}}
+          .cta{display:flex;gap:10px;align-items:center}
+          .btn{background:linear-gradient(90deg,var(--accent),#60a5fa);color:#042;padding:10px 14px;border-radius:10px;font-weight:700;text-decoration:none}
+          .ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:10px;color:var(--muted);text-decoration:none}
+
+          footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+          pre{white-space:pre-wrap;background:transparent;color:var(--muted);font-size:13px}
+        
+          .avatar {
+        position: relative;
+        width: 96px;
+        height: 96px;
+        border-radius: 18px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, var(--accent), #60a5fa);
+      }
+
+      .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .avatar span {
+        position: absolute;
+        color: #fff;
+        font-weight: 700;
+      }
+
+
+        </style>
+      </head>
+      <body>
+        <div class="wrap">
+          <header>
+      <div class="avatar">
+        <img src="ace.jpg" alt="Ysrael Abilon" />
+
+</div>
+
+        <h1>Ysrael Abilon</h1>
+        <p class="lead">BSIT student • Ethical technology • Accessible education • Community building</p>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <div class="tag">LinkedIn: <strong>ysrael-abilon</strong></div>
+        <div style="margin-top:8px;color:var(--muted);font-size:13px">Location: Manila, Philippines</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card section" id="about">
+          <h2>About me</h2>
+          <p>I combine technology with character. Guided by the KaKaMPI values — <em>Kahusayan</em> (excellence), <em>Katapatan</em> (honesty), <em>Malasakit</em> (compassion), <em>Pagkamalikhain</em> (creativity), and <em>Integridad</em> (integrity) — I design solutions that respect people and help communities access learning and opportunities.</p>
+        </section>
+
+        <section class="card section" id="values">
+          <h2>Core values — KaKaMPI</h2>
+          <div class="values">
+            <div class="value"><h4>Kahusayan</h4><p>Always pursuing excellence in work and learning.</p></div>
+            <div class="value"><h4>Katapatan</h4><p>Honesty builds trust in teams and users.</p></div>
+            <div class="value"><h4>Malasakit</h4><p>Caring for people guides ethical decisions.</p></div>
+            <div class="value"><h4>Pagkamalikhain</h4><p>Creative thinking helps solve problems uniquely.</p></div>
+            <div class="value"><h4>Integridad</h4><p>Doing the right process even when no one is watching.</p></div>
+          </div>
+        </section>
+
+        <section class="card section" id="projects">
+          <h2>Selected Projects</h2>
+          <div class="projects">
+            <article class="project">
+              <h5>NTC — History Presentation</h5>
+              <p class="muted">A concise timeline and research on the National Teachers College (NTC) — highlights founders, milestones, and the role of education.</p>
+              <div style="margin-top:8px"><a class="ghost" href="#" onclick="alert('Replace this link with your PDF or Talk URL')">Open presentation (PDF)</a></div>
+            </article>
+
+            <article class="project">
+              <h5>KaKaMPI — Personal Reflection</h5>
+              <p class="muted">A short essay reflecting on how KaKaMPI values shape my decisions, motivations, and leadership approach.</p>
+              <div style="margin-top:8px"><a class="ghost" href="#" onclick="alert('Replace this link with your DOCX or text file')">Read reflection</a></div>
+            </article>
+
+            <article class="project">
+              <h5>Ikigai — Passion & Purpose</h5>
+              <p class="muted">A visual and text exercise mapping passion, profession, mission, and vocation — guiding my career toward ethical technology and education.</p>
+              <div style="margin-top:8px"><a class="ghost" href="#" onclick="alert('Replace with PDF or image')">View Ikigai</a></div>
+            </article>
+
+            <article class="project">
+              <h5>Projects</h5>
+              <p class="muted">Projects in web development, data analysis, and community-driven tools will be added here as I build them.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card section" id="ikigai">
+          <h2>Ikigai (Why I do this)</h2>
+          <div class="ikigai">
+            <div>
+              <h4>What I love</h4>
+              <p>Computers, ethical tech, research, reading, and community work.</p>
+            </div>
+            <div>
+              <h4>What the world needs</h4>
+              <p>Accessible education and technology that respects people.</p>
+            </div>
+            <div>
+              <h4>What I'm good at</h4>
+              <p>Research, data analysis, problem solving, and empathetic communication.</p>
+            </div>
+            <div>
+              <h4>What I can be paid for</h4>
+              <p>Entry roles in web development, IT support, or research assistance.</p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card section">
+          <h3>Quick CV</h3>
+          <p><strong>Degree:</strong> BS in Information Technology (in progress)</p>
+          <p><strong>Skills:</strong> HTML, CSS, basic JS, research, data analysis, presentation</p>
+          <p><strong>Interests:</strong> Ethical tech, education, community projects</p>
+          <div style="margin-top:12px" class="cta">
+            <a class="btn" href="#" onclick="window.open('https://www.linkedin.com','_blank')">View my LinkedIn</a>
+            <a class="ghost" href="#" onclick="alert('Replace with a link to download full CV')">Download CV</a>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Contact</h3>
+          <p style="color:var(--muted)">Email: <strong>ysrael.abilon2k4@example.com</strong></p>
+          <p style="color:var(--muted)">Available for internships, volunteer projects, and collaborations.</p>
+        </div>
+
+
+    <footer>
+      <div>Made with KaKaMPI values • Ysrael Abilon — Manila, Philippines</div>
+    </footer>
+  </div>
+</body>
+</html>
